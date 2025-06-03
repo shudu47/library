@@ -1,5 +1,5 @@
 // API base URL
-export const API_URL = 'http://localhost:5000/api';
+export const API_URL = 'https://library-1-3lz0.onrender.com/api';
 
 // Book image placeholders by subject
 export const BOOK_PLACEHOLDERS: Record<string, string> = {
