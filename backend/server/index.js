@@ -15,10 +15,10 @@ app.use(express.json());
 
 // Database configuration
 const dbConfig = {
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'library',
+  host: process.env.DB_HOST || 'sql12.freesqldatabase.com',
+  user: process.env.DB_USER || 'sql12782873',
+  password: process.env.DB_PASSWORD || 'F2hvewD9gy',
+  database: process.env.DB_NAME || 'sql12782873',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
